@@ -1,0 +1,87 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hacker-man {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    &__title {
+        width: 617px;
+
+        &-head {
+            font-family: $brand-font;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 94.96%;
+            color: $brand-color;
+
+            &--small {
+                color: rgb(224, 59, 59);
+                font-size: 40px;
+            }
+        }
+        
+    }
+
+    &__img {
+        object-fit: cover;
+    }
+
+    &__btn-our {
+        font-family: $brand-font;
+        padding: 10px 20px;
+        background-color: $brand-color;
+        color: #020201;
+        font-weight: 700;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+    }
+
+    &__btn-our:hover {
+        background-color: rgba(255, 129, 59, 0.8);
+    }
+    &__btn-our:active {
+        transform: scale(0.9);
+    }
+
+    &__btn-us {
+        padding: 10px 20px;
+        margin-left: 30px;
+        font-size: 18px;
+        font-weight: 400;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    &__btn-us:hover {
+        background-color: $brand-color;
+        color: #020201;
+    }
+    &__btn-us:active {
+        transform: scale(0.9);
+    }
+
+
+    &__text {
+        color: #B2AE66;
+        margin-top: 21px;
+        margin-bottom: 91px;
+        font-size: 18px;
+
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .hacker-man {
+        
+
+        &__title {
+
+
+        }
+    }
+} 

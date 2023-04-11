@@ -15,6 +15,7 @@ body {
   background-color: #020201;
   display: flex;
   justify-content: center;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -33,6 +34,17 @@ ul {
   list-style: none;
 }
 
+.btn {
+  background-color: transparent;
+  border: 1px solid #FF813B;
+  border-radius: 8px;
+  color: #FF813B;
+  cursor: pointer;
+}
+
+.header {
+  margin-bottom: 148px;
+}
 .header__nav-container {
   display: flex;
   justify-content: space-between;
@@ -103,4 +115,68 @@ ul {
   .header__burger {
     display: flex;
   }
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hacker-man {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.hacker-man__title {
+  width: 617px;
+}
+.hacker-man__title-head {
+  font-family: "Rubik Pixels", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 94.96%;
+  color: #FF813B;
+}
+.hacker-man__title-head--small {
+  color: rgb(224, 59, 59);
+  font-size: 40px;
+}
+.hacker-man__img {
+  object-fit: cover;
+}
+.hacker-man__btn-our {
+  font-family: "Rubik Pixels", "sans-serif";
+  padding: 10px 20px;
+  background-color: #FF813B;
+  color: #020201;
+  font-weight: 700;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+.hacker-man__btn-our:hover {
+  background-color: rgba(255, 129, 59, 0.8);
+}
+.hacker-man__btn-our:active {
+  transform: scale(0.9);
+}
+.hacker-man__btn-us {
+  padding: 10px 20px;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.hacker-man__btn-us:hover {
+  background-color: #FF813B;
+  color: #020201;
+}
+.hacker-man__btn-us:active {
+  transform: scale(0.9);
+}
+.hacker-man__text {
+  color: #B2AE66;
+  margin-top: 21px;
+  margin-bottom: 91px;
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */
