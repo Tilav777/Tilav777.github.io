@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 100%;
+    overflow: hidden;
     &__title {
         width: 617px;
 
@@ -71,17 +71,28 @@
         margin-top: 21px;
         margin-bottom: 91px;
         font-size: 18px;
-
+        width: 531px;
     }
 }
 
 @media only screen and (max-width: 1200px) {
+    
     .hacker-man {
-        
 
         &__title {
 
+            &-head {
+            font-size: 56px;
+            }
 
         }
+        &__text {
+            font-size: 16px;
+            width: 400px;
+        }
+        &__img {
+            width: 500px;
+        }
     }
+    
 } 

@@ -5,7 +5,7 @@
 }
 
 .website {
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -125,7 +125,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 100%;
+  overflow: hidden;
 }
 .hacker-man__title {
   width: 617px;
@@ -179,4 +179,18 @@ ul {
   margin-top: 21px;
   margin-bottom: 91px;
   font-size: 18px;
+  width: 531px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hacker-man__title-head {
+    font-size: 56px;
+  }
+  .hacker-man__text {
+    font-size: 16px;
+    width: 400px;
+  }
+  .hacker-man__img {
+    width: 500px;
+  }
 }/*# sourceMappingURL=main.css.map */
