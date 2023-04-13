@@ -19,8 +19,9 @@ body {
     background-color: #020201;
     flex-wrap: nowrap;
 }
-html {
-    overflow: hidden;
+html,body {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .container  {
