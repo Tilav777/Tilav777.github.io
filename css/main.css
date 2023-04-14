@@ -134,6 +134,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   width: auto;
+  margin-bottom: 230px;
 }
 .hacker-man__title {
   width: 617px;
@@ -188,6 +189,49 @@ ul {
   margin-bottom: 91px;
   font-size: 18px;
   width: 531px;
+}
+
+.hack-tester {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+.hack-tester__title {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-right: 45px;
+}
+.hack-tester__head {
+  color: #FF813B;
+  font-family: "Rubik Pixels", "sans-serif";
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.hack-tester__text:nth-child(2) {
+  color: #B2AE66;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 78px;
+}
+.hack-tester__text:nth-child(3) {
+  color: #B2AE66;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.hack-tester__text:nth-child(3) a {
+  color: #FF813B;
+  text-decoration: dotted;
+}
+.hack-tester__img {
+  width: 500px;
+  height: 337px;
 }
 
 @media only screen and (max-width: 1250px) {

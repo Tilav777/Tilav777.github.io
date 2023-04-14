@@ -1,3 +1,5 @@
+// main content hacker man
+
 .main-content {
     display: flex;
     flex-direction: column;
@@ -9,6 +11,7 @@
     align-items: center;
     justify-content: space-between;
     width: auto;
+    margin-bottom: 230px;
     &__title {
         width: 617px;
         &-head {
@@ -73,6 +76,64 @@
         width: 531px;
     }
 }
+
+// main content Tester
+
+.hack-tester {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin-right: 45px;
+    }
+    &__head {
+        color: $brand-color;
+        font-family: $brand-font;
+        font-size: 42px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+    &__text:nth-child(2) {
+        color: #B2AE66;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 78px;
+    }
+
+    &__text:nth-child(3){
+        color: #B2AE66;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    &__text:nth-child(3) a {
+        color: $brand-color;
+        text-decoration: dotted;
+    }
+    
+    &__img {
+        width: 500px;
+        height: 337px;
+    }
+}
+
+
+
+
+
+
+
+// main content hacker man risponsive
+
 @media only screen and (max-width: 1250px) {
     .hacker-man__img {
         width: 500px;
