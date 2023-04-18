@@ -64,19 +64,16 @@ function addActive(a,b,c,d,e) {
 }
 
 headerNavListItem[0].addEventListener('click', (item)=> {
-    addActive(0,1,2,3,4);
+    addActive(0,1,2,3);
 })
 headerNavListItem[1].addEventListener('click', (item)=> {
-    addActive(1,0,2,3,4);
+    addActive(1,0,2,3);
 })
 headerNavListItem[2].addEventListener('click', (item)=> {
-    addActive(2,0,1,3,4);
+    addActive(2,0,1,3);
 })
 headerNavListItem[3].addEventListener('click', (item)=> {
-    addActive(3,0,1,2,4);
-})
-headerNavListItem[4].addEventListener('click', (item)=> {
-    addActive(4,0,1,2,3);
+    addActive(3,0,1,2);
 })
 
 if(headerBurger) {
