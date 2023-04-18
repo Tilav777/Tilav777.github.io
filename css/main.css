@@ -15,10 +15,10 @@
 body {
   display: flex;
   justify-content: center;
-  scroll-behavior: smooth;
   flex-direction: column;
   background-color: #020201;
   flex-wrap: nowrap;
+  scroll-behavior: smooth;
 }
 
 html, body {
