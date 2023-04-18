@@ -127,6 +127,7 @@ ul {
 .main-content {
   display: flex;
   flex-direction: column;
+  margin-bottom: 211px;
 }
 
 .hacker-man {
@@ -329,4 +330,40 @@ ul {
     width: 320px;
     margin-bottom: 60px;
   }
+}
+.persons-container {
+  display: flex;
+  flex-direction: column;
+}
+.persons-container__head {
+  color: #FF813B;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  font-family: "Rubik Pixels", "sans-serif";
+  margin-bottom: 41px;
+}
+.persons-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.persons-cards__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 255px;
+  padding: 52px 25px;
+  background-color: #0A0A06;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+.persons-cards__card--title {
+  color: #FF813B;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 35px;
+  line-height: 27px;
 }/*# sourceMappingURL=main.css.map */
