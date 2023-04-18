@@ -439,6 +439,9 @@ ul {
   }
 }
 @media only screen and (max-width: 630px) {
+  .form-section-container {
+    align-items: center;
+  }
   .form {
     width: 450px;
   }
@@ -448,6 +451,9 @@ ul {
   .form-section-container__head {
     font-size: 36px;
     width: 470px;
+  }
+  .persons {
+    margin-bottom: 160px;
   }
 }
 @media only screen and (max-width: 520px) {
@@ -460,8 +466,15 @@ ul {
   }
 }
 @media only screen and (max-width: 460px) {
+  .form-section-container__head {
+    font-size: 24px;
+    width: 320px;
+  }
   .form {
-    width: 370px;
+    width: 320px;
     padding: 30px;
+  }
+  .form textarea, .form input {
+    width: 260px;
   }
 }/*# sourceMappingURL=main.css.map */
