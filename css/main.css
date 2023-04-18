@@ -18,6 +18,9 @@ body {
   flex-direction: column;
   background-color: #020201;
   flex-wrap: nowrap;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -331,6 +334,9 @@ ul {
     margin-bottom: 60px;
   }
 }
+.persons {
+  margin-bottom: 220px;
+}
 .persons-container {
   display: flex;
   flex-direction: column;
@@ -345,7 +351,7 @@ ul {
 }
 .persons-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .persons-cards__card {
@@ -366,4 +372,96 @@ ul {
   font-size: 16px;
   margin-bottom: 35px;
   line-height: 27px;
+}
+
+@media only screen and (max-width: 570px) {
+  .persons-cards {
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .persons-container__head {
+    font-size: 42px;
+    width: 300px;
+  }
+}
+.form-section-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-section-container__head {
+  width: 545px;
+  color: #FF813B;
+  font-family: "Rubik Pixels", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  margin-bottom: 42px;
+}
+
+.form {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 41px 48px;
+  background-color: #0F0F08;
+  align-items: flex-start;
+  gap: 10px;
+}
+.form input, .form textarea {
+  background-color: #030302;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px;
+  color: #FF813B;
+}
+.form label {
+  color: #FF813B;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.form input {
+  width: 345px;
+}
+.form textarea {
+  width: 603px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 840px) {
+  .form {
+    width: 555px;
+  }
+  .form textarea {
+    width: 450px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .form {
+    width: 450px;
+  }
+  .form textarea, .form input {
+    width: 300px;
+  }
+  .form-section-container__head {
+    font-size: 36px;
+    width: 470px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .form-section-container__head {
+    font-size: 28px;
+    width: 364px;
+  }
+  .form {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .form {
+    width: 370px;
+    padding: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */

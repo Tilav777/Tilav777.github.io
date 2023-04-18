@@ -1,0 +1,86 @@
+.form-section-container {
+    display: flex;
+    flex-direction: column;
+
+    &__head {
+        width: 545px;
+        color: $brand-color;
+        font-family: $brand-font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        margin-bottom: 42px;
+    }
+}
+
+.form {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 41px 48px;       
+    background-color: #0F0F08;
+    align-items: flex-start;
+    gap: 10px;
+
+    & input, textarea {
+        background-color: #030302;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        padding: 10px;
+        color: #FF813B;
+    }
+    & label {
+        color: $brand-color;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    & input {
+        width: 345px;
+    }
+    & textarea {
+        width: 603px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .form {
+        width: 555px;
+
+
+        & textarea {
+            width: 450px;
+        }
+    }
+}
+@media only screen and (max-width: 630px) {
+    .form {
+        width: 450px;
+
+        & textarea,input {
+            width: 300px;
+        }
+    }
+    .form-section-container__head {
+        font-size: 36px;
+        width: 470px;
+    }
+} 
+@media only screen and (max-width: 520px) {
+    .form-section-container__head {
+        font-size: 28px;
+        width: 364px;
+    }
+    .form {
+        width: 400px;
+    }
+} 
+
+@media only screen and (max-width: 460px) {
+    .form {
+        width: 370px;
+        padding: 30px;
+    }
+}
