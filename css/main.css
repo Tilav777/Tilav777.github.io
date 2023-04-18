@@ -298,6 +298,14 @@ ul {
     font-size: 14px;
     margin-bottom: 70px;
   }
+  .hack-tester__head {
+    font-size: 36px;
+  }
+  .hack-tester__text:nth-child(2) {
+    font-size: 16px;
+    width: 380px;
+    margin-bottom: 60px;
+  }
 }
 @media only screen and (max-width: 460px) {
   .hacker-man__title-head {
@@ -312,5 +320,13 @@ ul {
   }
   .header {
     margin-bottom: 80px;
+  }
+  .hack-tester__head {
+    font-size: 32px;
+  }
+  .hack-tester__text:nth-child(2) {
+    font-size: 16px;
+    width: 360px;
+    margin-bottom: 60px;
   }
 }/*# sourceMappingURL=main.css.map */
