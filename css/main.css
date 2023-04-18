@@ -385,6 +385,10 @@ ul {
     width: 300px;
   }
 }
+.form-section {
+  margin-bottom: 227px;
+}
+
 .form-section-container {
   display: flex;
   flex-direction: column;
@@ -477,4 +481,27 @@ ul {
   .form textarea, .form input {
     width: 260px;
   }
+}
+.footer {
+  background-color: #0F0F08;
+  padding: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.footer-container__card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+}
+.footer-container__card h4 {
+  color: #FF813B;
+}
+.footer-container__card img {
+  color: red;
 }/*# sourceMappingURL=main.css.map */
