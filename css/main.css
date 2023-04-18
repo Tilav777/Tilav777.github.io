@@ -492,6 +492,7 @@ ul {
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
+  gap: 40px 0;
 }
 .footer-container__card {
   display: flex;
