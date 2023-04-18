@@ -299,11 +299,11 @@ ul {
     margin-bottom: 70px;
   }
   .hack-tester__head {
-    font-size: 32px;
+    font-size: 30px;
   }
   .hack-tester__text:nth-child(2) {
     font-size: 16px;
-    width: 360px;
+    width: 340px;
     margin-bottom: 60px;
   }
 }
@@ -322,11 +322,11 @@ ul {
     margin-bottom: 80px;
   }
   .hack-tester__head {
-    font-size: 30px;
+    font-size: 28px;
   }
   .hack-tester__text:nth-child(2) {
     font-size: 16px;
-    width: 340px;
+    width: 320px;
     margin-bottom: 60px;
   }
 }/*# sourceMappingURL=main.css.map */
